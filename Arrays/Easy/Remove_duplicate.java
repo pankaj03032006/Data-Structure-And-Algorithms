@@ -2,6 +2,7 @@ public class Remove_duplicate {
     public static int[] remove(int[] arr){
         int n=arr.length;
         int j=0;
+        
         for(int i=1; i<n; i++){
            if(arr[i] !=arr[j]){
               j++;
